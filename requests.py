@@ -1,3 +1,0 @@
-virtual/
-*/.pycache
-*.pyc
