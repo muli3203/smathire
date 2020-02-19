@@ -1,6 +1,6 @@
  
 body {
-    background-image:url("https://images.pexels.com/photos/3568792/pexels-photo-3568792.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500") ;
+    background-image:url("https://images.pexels.com/photos/5412/water-blue-ocean.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500") ;
     color: silver;
     margin-top: 5rem;
     background-repeat: no-repeat;
@@ -82,7 +82,7 @@ body {
     font-size: 2.5rem;
   }
   .owino{
-    background-image: url("https://images.pexels.com/photos/414645/pexels-photo-414645.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-image: url("https://images.pexels.com/photos/40465/pexels-photo-40465.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
     background-size: cover;
     height: 50vh;
     

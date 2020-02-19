@@ -11,23 +11,23 @@
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='main.css') }}">
 
     {% if title %}
-        <title>Blogs- {{ title }}</title>
+        <title>SMAT_HIRE- {{ title }}</title>
     {% else %}
-        <title>Blogs</title>
+        <title>smathire</title>
     {% endif %}
 </head>
 <body>
     <header class="site-header">
       <nav class="navbar navbar-expand-lg navbar-dark bg-steel fixed-top">
         <div class="container">
-          <a class="navbar-brand mr-4" href="/">Blogs</a>
+          <a class="navbar-brand mr-4" href="/">Products</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarToggle">
             <div class="navbar-nav mr-auto">
               <a class="nav-item nav-link" href="{{ url_for('home') }}">Home</a>
-              <a class="nav-item nav-link" href="{{ url_for('about') }}">About</a>
+              <!-- <a class="nav-item nav-link" href="{{ url_for('about') }}">About</a> -->
             </div>
             <!-- Navbar Right Side -->
             <div class="navbar-nav">
@@ -47,8 +47,8 @@
      <div class="owino">
      <div class="ben text-center">
      <h1>Blogs WEBSITE</h1>
-     <P>make your blog at anytime and any place. just need internet connecter.</P>
-     <a class="nav-item nav-link" href="{{ url_for('new_post') }}"><button type="button" class="btn btn-danger">START BLOGING</button></a>
+     <P>make your product be hired at anytime and at any place. just need internet connecter.</P>
+     <a class="nav-item nav-link" href="{{ url_for('new_post') }}"><button type="button" class="btn btn-danger">POST PRODUCT</button></a>
      </div>
     </div>
     <main role="main" class="container">
@@ -89,7 +89,7 @@
   <!-- Footer Elements -->
 
   <!-- Copyright -->
-  <div class="footer-copyright text-center py-3">© 2020 Copyright: BENSON7
+  <div class="footer-copyright text-center py-3">Copyright: SMATHIRE&COPY;2020
   </div>
   <!-- Copyright -->
 
