@@ -5,6 +5,7 @@ body {
     margin-top: 5rem;
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: blue;
   }
   
   h1, h2, h3, h4, h5, h6 {
@@ -83,7 +84,8 @@ body {
   }
   .owino{
     background-image: url("https://images.pexels.com/photos/40465/pexels-photo-40465.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
-    
+    background-color: #5ca8eb;
+
     background-size: cover;
     height: 50vh;
     
