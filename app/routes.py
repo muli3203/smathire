@@ -101,7 +101,10 @@ def account():
 def new_post():
     form = PostForm()
     if form.validate_on_submit():
-        post = Post(title=form.title.data, content=form.content.data, picture_file = save_picture(form.picture.data), author=current_user)
+        post = Post(title=form.title.data, content=form.content.data, author=current_user)
+    and form.picture.data:
+            picture_file = save_picture(form.picture.data)
+            current_user.image_file = picture_file    
         db.session.add(post)
         db.session.commit()
         flash('Your post have been created!', 'success')
