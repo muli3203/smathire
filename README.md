@@ -1,11 +1,11 @@
-# Blogs
-BLOGs is a personal blogging website where one can create and share  opinions.
- Other users can read and comment on opinions. 
-Blogs also has random quotes that inspire the users. 
+# Smathire
+smathire is a hiring connection platform
 
 ## Author
-> Benson owino
-
+> Benson
+> Mully
+> Josh
+> Andrew
 
 ## Screenshot
 <img src="landing.png">
@@ -20,14 +20,14 @@ The following command installs all the application requirements
 ## Installations
 
 Run 
-``git clone https://github.com/benowino7/blogs.git``
+``git clone https://github.com/muli3203/smathire``
 
 or download the zip file from github.
 
 After extracting the files, 
 
 1. Navigate to the project folder
->`` cd blogs.`` 
+>`` cd smathire`` 
 
 2. Creating a virtual environment
 >``virtualenv virtual.``
@@ -51,18 +51,6 @@ After extracting the files,
 * Css3
 * Bootstrap4
 
-
-## User stories
-* As a user, I would like to view the blog posts on the site
-* As a user, I would like to comment on blog posts
-* As a user, I would like to view the most recent posts
-* As a user, I would like to an email alert when a new post is made by joining a subscription.
-* As a user, I would like to see random quotes on the site
-* As a writer, I would like to sign in to the blog.
-* As a writer, I would also like to create a blog from the application.
-* As a writer, I would like to delete comments that I find insulting or degrading.
-* As a writer, I would like to update or delete blogs I have created.
-
 ## BDD(Behaviour Driven Development)
 >Login Inputs
 
@@ -80,21 +68,21 @@ After extracting the files,
 | Password  | Account password, ``eg pass``|
 | Confirm Password  | Account password, ``eg pass``|
 
-> Blog inputs
+> Product inputs
 
 | Inputs | Description  |
 |---|---|
-|  Blog title | the title of the blog eg; `` Comedy new story``  |
-|  Blog post| The blog post itself|
-| Comment| A comment on the blog post|
+|  Product title | the title of the product eg; `` Comedy new story``  |
+|  Product post| The product post itself|
+| Comment| A comment on the product post|
 
 
 
 ## License
-> MIT License &copy; Benson Owino 2020
+> MIT License &copy; smathire 2020
 
 ## Collaborate
-To collaborate, reach me on [bensonowino7@gmail.com]()
+To collaborate, reach us on [contechkenya7@gmail.com]()
 ## Github live Link
--https://blogs7.herokuapp.com/home
+-https://smathire.herokuapp.com/
 
